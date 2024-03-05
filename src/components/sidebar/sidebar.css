@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: "Figtree", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        "Figtree", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    height: 100vh;
+    background: #ffffff;
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.app {
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 8px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #165a72;
+    margin: 50px auto;
+    font-size: 40px;
+}
+
+.menu-1 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #165a72;
+}
+
+.create-team,
+.folder {
+    color: rgb(152, 151, 151);
+    font-size: 15px;
+    padding: 0;
+}
+
+.foldericon {
+    float: right;
+}
+
+.logo-bar {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.main-logo {
+    border: 2px solid black;
+    height: 50px;
+    background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80");
+    background-size: cover;
+
+}
+
+.logo-name {
+    margin-left: 5px;
+}
+
+.inc {
+    padding: 0;
+    margin: 0;
+    color: rgb(152, 151, 151);
+}
+
+.hub {
+    padding-bottom: px;
+}
+
+.btn-last {
+    float: right;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.profile-img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80");
+    background-size: cover;
+
+}

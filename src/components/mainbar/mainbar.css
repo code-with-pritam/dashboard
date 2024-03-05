@@ -1,0 +1,8 @@
+.main-navbar{
+    display: grid;
+    grid-template-columns:70% 30% ;
+}
+.filter{
+    display: grid;
+    grid-template-columns:70% 30% ;
+}
